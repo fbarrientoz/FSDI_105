@@ -1,0 +1,252 @@
+/* Global*/
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+p{
+    line-height: 2;
+    font-size: 14px;
+}
+
+
+h1{
+    font-size: 50px;;
+}
+
+h2{
+    font-size: 30px;;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    color:#555555;
+}
+
+
+
+/* header */
+header {
+    background-image: url(../img/FashionPet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    width: 100%;
+    padding:100px 10px;
+
+    height: 300px;
+    text-align: center; 
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-header
+{
+    padding-top: 50px;
+    font-weight: 700;
+
+}
+
+.adress{
+    font-size: 20px;
+}
+
+.btn
+{
+    background-color:rgb(8, 8, 8) ;
+    color: white;
+    width: 200px;
+    font-size: 18px; 
+    border-radius: 15px;
+    padding:15px 15px;
+    
+}
+
+.btn:hover
+{
+    background-color:rgb(61, 4, 49);
+    
+}
+
+i{
+    font-size: 18px;
+
+}
+
+i:hover{
+color:rgb(78, 9, 117);
+}
+
+/* Utilities*/
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.LinkSpan
+{
+    color:rgb(99, 7, 79);
+}
+/* Menu*/
+
+nav.menu {
+    background-color: rgb(99, 7, 79);
+    display: flex;
+    justify-content: center;
+      /* justify-content: space-around; */
+}
+
+nav.menu a {
+   color: rgb(238, 238, 238) ;
+   text-decoration: none;
+   padding: 15px;
+   font: 20px;
+   margin-right: 20px;
+}
+
+nav.menu a:hover{
+    color:white;
+    background-color:  rgb(61, 4, 49);
+}
+
+
+/* Footer */
+nav.menu-footer {
+  
+    display: flex;
+    justify-content: center;
+      /* justify-content: space-around; */
+}
+
+nav.menu-footer a {
+   color: rgb(61, 4, 49);
+   text-decoration: none;
+   padding: 15px;
+   font: 20px;
+   margin-right: 20px;
+}
+
+
+nav.menu-footer a:hover{
+    color:rgb(32, 2, 26);
+    
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(161, 161, 161);
+    color:white;
+    text-align: center;
+}
+
+/* Icons */
+/* div.icons{
+    background-color: rgb(185, 185, 5);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+} */
+
+div.service{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ProjectsList ul
+{
+    padding:10px;    
+}
+
+.imageRotate{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 450px;
+    border-radius: 1%;
+}
+
+.pet{
+    border: 1px solid black;
+    margin: 1rem; 
+    padding: 1rem;
+
+}
+
+.pet:hover{
+
+    background-color: rgb(211, 211, 211);
+    
+}
+
+#petSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* Full-width input fields */
+input[type=text],select,input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: rgb(61, 4, 49);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  
